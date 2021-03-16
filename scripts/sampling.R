@@ -13,20 +13,6 @@ fitdist <- function(pars, data, dist) {
     qs <- c(0.025, 0.5, 0.975)
     1:3 %>% map_dbl(~ (dist(qs[.x],  pars[1], pars[2]) - data[.x])^2) %>% sum
 }
-fitbeta <- function(pars, data) {
-    qs <- c(0.025, 0.5, 0.975)
-    1:3 %>% map_dbl(~ (qbeta(qs[.x],  pars[1], pars[2]) - data[.x])^2) %>% sum
-}
-# function to fit to a normal distributions using mean and ci
-fitlnorm <- function(pars, data) {
-    qs <- c(0.025, 0.5, 0.975)
-    1:3 %>% map_dbl(~ (qlnorm(qs[.x],  pars[1], pars[2]) - data[.x])^2) %>% sum
-}
-# function to fit to a log-normal distributions using mean and ci
-fitnorm <- function(pars, data) {
-    qs <- c(0.025, 0.5, 0.975)
-    1:3 %>% map_dbl(~ (qnorm(qs[.x],  pars[1], pars[2]) - data[.x])^2) %>% sum
-}
 
 # 3. GET SAMPLES FOR EFFICACY
 # all fitted to a beta distribution
