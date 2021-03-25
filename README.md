@@ -1,10 +1,7 @@
 # hit-analysis
 
-First, set local path in R to GitHub directory, e.g.:
+Data and references on vaccine efficacy, R0 and seroprevalence estimates values can be found in the `data` folder.
 
-`
-setwd("~/Documents/GitHub/hit-analysis/")
-`
+R code for sampling and making Figures 1 and 2 can be found in the `scripts` folder.
 
-Data and references on vaccine efficacy and R0 values can be found in `data/data_full.xlsx`.
-Code for sampling and making Figure 1 can be found in `sampling.R`.
+Generated datasets used to create figures can be found in the `outputs/fig_data` folder.
