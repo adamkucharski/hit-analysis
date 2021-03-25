@@ -1,0 +1,270 @@
+﻿Country Code,TableName,GBD_super,Region,IncomeGroup,SpecialNotes
+ABW,Aruba,,Latin America & Caribbean,High income,
+AFG,Afghanistan,North Africa and Middle East,South Asia,Low income,
+AGO,Angola,Sub-Saharan Africa,Sub-Saharan Africa,Lower middle income,
+ALB,Albania,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,Upper middle income,
+AND,Andorra,High income,Europe & Central Asia,High income,
+ARB,Arab World,,,,Arab World aggregate. Arab World is composed of members of the League of Arab States.
+ARE,United Arab Emirates,North Africa and Middle East,Middle East & North Africa,High income,
+ARG,Argentina,High income,Latin America & Caribbean,Upper middle income,
+ARM,Armenia,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,Upper middle income,
+ASM,American Samoa,"Southeast Asia, East Asia, and Oceania",East Asia & Pacific,Upper middle income,
+ATG,Antigua and Barbuda,Latin America and Caribbean,Latin America & Caribbean,High income,
+AUS,Australia,High income,East Asia & Pacific,High income,Fiscal year end: June 30; reporting period for national accounts data: FY.
+AUT,Austria,High income,Europe & Central Asia,High income,"A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 13.7603 Austrian schilling. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+AZE,Azerbaijan,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,Upper middle income,
+BDI,Burundi,Sub-Saharan Africa,Sub-Saharan Africa,Low income,
+BEL,Belgium,High income,Europe & Central Asia,High income,"A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 40.3399 Belgian franc. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+BEN,Benin,Sub-Saharan Africa,Sub-Saharan Africa,Lower middle income,
+BFA,Burkina Faso,Sub-Saharan Africa,Sub-Saharan Africa,Low income,
+BGD,Bangladesh,South Asia,South Asia,Lower middle income,Fiscal year end: June 30; reporting period for national accounts data: FY.
+BGR,Bulgaria,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,Upper middle income,
+BHR,Bahrain,North Africa and Middle East,Middle East & North Africa,High income,
+BHS,"Bahamas, The",Latin America and Caribbean,Latin America & Caribbean,High income,
+BIH,Bosnia and Herzegovina,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,Upper middle income,
+BLR,Belarus,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,Upper middle income,"Data before 2015 were adjusted to reflect the new denomination effective from July 1, 2016 (BYN), a decrease of 10,000 times (1 BYN = 10,000 BYR)"
+BLZ,Belize,Latin America and Caribbean,Latin America & Caribbean,Upper middle income,
+BMU,Bermuda,Latin America and Caribbean,North America,High income,
+BOL,Bolivia,Latin America and Caribbean,Latin America & Caribbean,Lower middle income,
+BRA,Brazil,Latin America and Caribbean,Latin America & Caribbean,Upper middle income,
+BRB,Barbados,Latin America and Caribbean,Latin America & Caribbean,High income,
+BRN,Brunei Darussalam,High income,East Asia & Pacific,High income,
+BTN,Bhutan,South Asia,South Asia,Lower middle income,
+BWA,Botswana,Sub-Saharan Africa,Sub-Saharan Africa,Upper middle income,
+CAF,Central African Republic,Sub-Saharan Africa,Sub-Saharan Africa,Low income,
+CAN,Canada,High income,North America,High income,Fiscal year end: March 31; reporting period for national accounts data: CY.
+CEB,Central Europe and the Baltics,"Central Europe, Eastern Europe, and Central Asia",,,Central Europe and the Baltics aggregate.
+CHE,Switzerland,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,High income,
+CHI,Channel Islands,High income,Europe & Central Asia,High income,
+CHL,Chile,High income,Latin America & Caribbean,High income,
+CHN,China,"Southeast Asia, East Asia, and Oceania",East Asia & Pacific,Upper middle income,"On 1 July 1997 China resumed its exercise of sovereignty over Hong Kong; and on 20 December 1999 China resumed its exercise of sovereignty over Macao. Unless otherwise noted, data for China do not include data for Hong Kong SAR, China; Macao SAR, China; or Taiwan, China."
+CIV,Côte d'Ivoire,Sub-Saharan Africa,Sub-Saharan Africa,Lower middle income,
+CMR,Cameroon,Sub-Saharan Africa,Sub-Saharan Africa,Lower middle income,
+COD,"Congo, Dem. Rep.",Sub-Saharan Africa,Sub-Saharan Africa,Low income,
+COG,"Congo, Rep.",Sub-Saharan Africa,Sub-Saharan Africa,Lower middle income,
+COL,Colombia,Latin America and Caribbean,Latin America & Caribbean,Upper middle income,
+COM,Comoros,Sub-Saharan Africa,Sub-Saharan Africa,Lower middle income,
+CPV,Cabo Verde,Sub-Saharan Africa,Sub-Saharan Africa,Lower middle income,
+CRI,Costa Rica,Latin America and Caribbean,Latin America & Caribbean,Upper middle income,
+CSS,Caribbean small states,,,,
+CUB,Cuba,Latin America and Caribbean,Latin America & Caribbean,Upper middle income,
+CUW,Curaçao,,Latin America & Caribbean,High income,
+CYM,Cayman Islands,,Latin America & Caribbean,High income,
+CYP,Cyprus,High income,Europe & Central Asia,High income,"A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate entered into force on January 1, 2008: 1 euro = 0.585274 Cyprus pounds. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries."
+CZE,Czech Republic,High income,Europe & Central Asia,High income,
+DEU,Germany,High income,Europe & Central Asia,High income,
+DJI,Djibouti,Sub-Saharan Africa,Middle East & North Africa,Lower middle income,
+DMA,Dominica,Latin America and Caribbean,Latin America & Caribbean,Upper middle income,
+DNK,Denmark,High income,Europe & Central Asia,High income,
+DOM,Dominican Republic,Latin America and Caribbean,Latin America & Caribbean,Upper middle income,
+DZA,Algeria,North Africa and Middle East,Middle East & North Africa,Lower middle income,
+EAP,East Asia & Pacific (excluding high income),,,,East Asia and Pacific regional aggregate (does not include high-income economies).
+EAR,Early-demographic dividend,,,,Early-dividend countries are mostly lower-middle-income countries further along the fertility transition. Fertility rates have fallen below four births per woman and the working-age share of the population is likely rising considerably.
+EAS,East Asia & Pacific,,,,East Asia and Pacific regional aggregate (includes all income levels).
+ECA,Europe & Central Asia (excluding high income),,,,Europe and Central Asia regional aggregate (does not include high-income economies).
+ECS,Europe & Central Asia,,,,Europe and Central Asia regional aggregate (includes all income levels).
+ECU,Ecuador,Latin America and Caribbean,Latin America & Caribbean,Upper middle income,
+EGY,"Egypt, Arab Rep.",North Africa and Middle East,Middle East & North Africa,Lower middle income,
+EMU,Euro area,,,,Euro area aggregate.
+ERI,Eritrea,Sub-Saharan Africa,Sub-Saharan Africa,Low income,
+ESP,Spain,High income,Europe & Central Asia,High income,"A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 166.386 Spanish peseta. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+EST,Estonia,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,High income,"The following irrevocable euro conversion rate entered into force on January 1, 2011: 1 euro = 15.6466 Estonian kroon. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries."
+ETH,Ethiopia,Sub-Saharan Africa,Sub-Saharan Africa,Low income,Fiscal year end: July 7; reporting period for national accounts data: FY.
+EUU,European Union,,,,European Union aggregate.
+FCS,Fragile and conflict affected situations,,,,"Fragile and conflict-affected situations aggregate. 
+
+Countries are distinguished based on the nature and severity of issues they face. The classification uses the following categories:
+- Countries with high levels of institutional and social fragility, identified based on publicly available indicators that measure the quality of policy and institutions and manifestations of fragility.
+- Countries affected by violent conflict, identified based on a threshold number of conflict-related deaths relative to the population. This category includes two sub-categories based on the intensity of violence: countries in high-intensity conflict and countries in medium-intensity conflict.
+
+For more information, please visit https://www.worldbank.org/en/topic/fragilityconflictviolence/brief/harmonized-list-of-fragile-situations."
+FIN,Finland,High income,Europe & Central Asia,High income,"A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 5.94573 Finnish markka. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+FJI,Fiji,"Southeast Asia, East Asia, and Oceania",East Asia & Pacific,Upper middle income,
+FRA,France,High income,Europe & Central Asia,High income,"The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 6.55957 French franc. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+FRO,Faroe Islands,High income,Europe & Central Asia,High income,
+FSM,"Micronesia, Fed. Sts.","Southeast Asia, East Asia, and Oceania",East Asia & Pacific,Lower middle income,"Fiscal year ends on September 30; reporting period for national accounts data: FY. Based on the Pacific and Virgin Islands Training Initiative, national accounts data have been revised."
+GAB,Gabon,Sub-Saharan Africa,Sub-Saharan Africa,Upper middle income,
+GBR,United Kingdom,High income,Europe & Central Asia,High income,
+GEO,Georgia,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,Upper middle income,"Includes self-governed areas only, which mostly exclude Abkhazia and South Ossetia, but small areas in Abkhazia and South Ossetia are included before 2008 or 2009 because of the changes in self-governed areas."
+GHA,Ghana,Sub-Saharan Africa,Sub-Saharan Africa,Lower middle income,
+GIB,Gibraltar,High income,Europe & Central Asia,High income,
+GIN,Guinea,Sub-Saharan Africa,Sub-Saharan Africa,Low income,
+GMB,"Gambia, The",Sub-Saharan Africa,Sub-Saharan Africa,Low income,
+GNB,Guinea-Bissau,Sub-Saharan Africa,Sub-Saharan Africa,Low income,
+GNQ,Equatorial Guinea,Sub-Saharan Africa,Sub-Saharan Africa,Upper middle income,
+GRC,Greece,High income,Europe & Central Asia,High income,"A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 340.75 Greek drachma. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+GRD,Grenada,Latin America and Caribbean,Latin America & Caribbean,Upper middle income,
+GRL,Greenland,High income,Europe & Central Asia,High income,
+GTM,Guatemala,Latin America and Caribbean,Latin America & Caribbean,Upper middle income,
+GUM,Guam,"Southeast Asia, East Asia, and Oceania",East Asia & Pacific,High income,
+GUY,Guyana,Latin America and Caribbean,Latin America & Caribbean,Upper middle income,
+HIC,High income,,,,"High income group aggregate. High-income economies are those in which 2019 GNI per capita was $12,536 or more."
+HKG,"Hong Kong SAR, China","Southeast Asia, East Asia, and Oceania",East Asia & Pacific,High income,"On 1 July 1997 China resumed its exercise of sovereignty over Hong Kong. Unless otherwise noted, data for China do not include data for Hong Kong SAR, China; Macao SAR, China; or Taiwan, China. Agriculture value added includes mining and quarrying."
+HND,Honduras,Latin America and Caribbean,Latin America & Caribbean,Lower middle income,
+HPC,Heavily indebted poor countries (HIPC),,,,Heavily indebted poor countries aggregate.
+HRV,Croatia,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,High income,
+HTI,Haiti,Latin America and Caribbean,Latin America & Caribbean,Low income,Fiscal year end: September 30; reporting period for national accounts data: FY.
+HUN,Hungary,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,High income,
+IBD,IBRD only,,,,IBRD only group aggregate.
+IBT,IDA & IBRD total,,,,"IDA and IBRD total group aggregate (includes IDA only, IDA blend, and IBRD only)."
+IDA,IDA total,,,,IDA total group aggregate (includes IDA only and IDA blend).
+IDB,IDA blend,,,,IDA blend group aggregate.
+IDN,Indonesia,"Southeast Asia, East Asia, and Oceania",East Asia & Pacific,Upper middle income,Fiscal year end: March 31; reporting period for national accounts data: CY. Data for Indonesia include Timor-Leste through 1999 unless otherwise noted.
+IDX,IDA only,,,,IDA only group aggregate.
+IMN,Isle of Man,High income,Europe & Central Asia,High income,
+IND,India,South Asia,South Asia,Lower middle income,Fiscal year end: March 31; reporting period for national accounts data: FY.
+IRL,Ireland,High income,Europe & Central Asia,High income,"A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 0.787564 Irish pound. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+IRN,"Iran, Islamic Rep.",North Africa and Middle East,Middle East & North Africa,Upper middle income,Fiscal year end: March 20; reporting period for national accounts data: FY.
+IRQ,Iraq,North Africa and Middle East,Middle East & North Africa,Upper middle income,
+ISL,Iceland,High income,Europe & Central Asia,High income,
+ISR,Israel,High income,Middle East & North Africa,High income,
+ITA,Italy,High income,Europe & Central Asia,High income,"A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 1936.27 Italian lira. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+JAM,Jamaica,Latin America and Caribbean,Latin America & Caribbean,Upper middle income,
+JOR,Jordan,North Africa and Middle East,Middle East & North Africa,Upper middle income,
+JPN,Japan,High income,East Asia & Pacific,High income,Fiscal year end: March 31; reporting period for national accounts data: CY.
+KAZ,Kazakhstan,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,Upper middle income,
+KEN,Kenya,Sub-Saharan Africa,Sub-Saharan Africa,Lower middle income,Fiscal year end: June 30; reporting period for national accounts data: CY.
+KGZ,Kyrgyz Republic,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,Lower middle income,
+KHM,Cambodia,"Southeast Asia, East Asia, and Oceania",East Asia & Pacific,Lower middle income,
+KIR,Kiribati,"Southeast Asia, East Asia, and Oceania",East Asia & Pacific,Lower middle income,
+KNA,St. Kitts and Nevis,Latin America and Caribbean,Latin America & Caribbean,High income,
+KOR,"Korea, Rep.",High income,East Asia & Pacific,High income,
+KWT,Kuwait,North Africa and Middle East,Middle East & North Africa,High income,
+LAC,Latin America & Caribbean (excluding high income),,,,
+LAO,Lao PDR,"Southeast Asia, East Asia, and Oceania",East Asia & Pacific,Lower middle income,
+LBN,Lebanon,North Africa and Middle East,Middle East & North Africa,Upper middle income,
+LBR,Liberia,Sub-Saharan Africa,Sub-Saharan Africa,Low income,Pre-2000 data will be revised further for consistency and quality purpose.
+LBY,Libya,North Africa and Middle East,Middle East & North Africa,Upper middle income,
+LCA,St. Lucia,Latin America and Caribbean,Latin America & Caribbean,Upper middle income,
+LCN,Latin America & Caribbean,,,,
+LDC,Least developed countries: UN classification,,,,
+LIC,Low income,,,,"Low income group aggregate. Low-income economies are those in which 2019 GNI per capita was $1,035 or less."
+LIE,Liechtenstein,High income,Europe & Central Asia,High income,
+LKA,Sri Lanka,"Southeast Asia, East Asia, and Oceania",South Asia,Lower middle income,
+LMC,Lower middle income,,,,"Lower middle income group aggregate. Lower-middle-income economies are those in which 2019 GNI per capita was between $1,036 and $4,045."
+LMY,Low & middle income,,,,
+LSO,Lesotho,Sub-Saharan Africa,Sub-Saharan Africa,Lower middle income,Fiscal year end: March 31; reporting period for national accounts data: CY.
+LTE,Late-demographic dividend,,,,
+LTU,Lithuania,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,High income,"A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate entered into force on January 1, 2015: 1 euro = 3.45280 Lithuanian litas. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries. Based on data from EUROSTAT, the new reference year is 2010."
+LUX,Luxembourg,High income,Europe & Central Asia,High income,"A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 40.3399 Luxembourg franc. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+LVA,Latvia,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,High income,"A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate entered into force on January 1, 2014: 1 euro = 0.702804 Latvian lats. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries. Based on data from EUROSTAT, the new reference year is 2010."
+MAC,"Macao SAR, China","Southeast Asia, East Asia, and Oceania",East Asia & Pacific,High income,"On 20 December 1999 China resumed its exercise of sovereignty over Macao. Unless otherwise noted, data for China do not include data for Hong Kong SAR, China; Macao SAR, China; or Taiwan, China."
+MAF,St. Martin (French part),,Latin America & Caribbean,High income,
+MAR,Morocco,North Africa and Middle East,Middle East & North Africa,Lower middle income,
+MCO,Monaco,High income,Europe & Central Asia,High income,
+MDA,Moldova,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,Lower middle income,"Excluding Transnistria. For 1950-94, World Bank estimates using UN World Population Prospects' growth rates of whole Moldova."
+MDG,Madagascar,Sub-Saharan Africa,Sub-Saharan Africa,Low income,
+MDV,Maldives,"Southeast Asia, East Asia, and Oceania",South Asia,Upper middle income,
+MEA,Middle East & North Africa,,,,Middle East and North Africa regional aggregate (includes all income levels).
+MEX,Mexico,High income,Latin America & Caribbean,Upper middle income,
+MHL,Marshall Islands,"Southeast Asia, East Asia, and Oceania",East Asia & Pacific,Upper middle income,Fiscal year ends on September 30; reporting period for national accounts data: FY.
+MIC,Middle income,,,,"Middle income group aggregate. Middle-income economies are those in which 2017 GNI per capita was between $996 and $12,055."
+MKD,North Macedonia,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,Upper middle income,
+MLI,Mali,Sub-Saharan Africa,Sub-Saharan Africa,Low income,
+MLT,Malta,High income,Middle East & North Africa,High income,"A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate entered into force on January 1, 2008: 1 euro = 0.4293 Maltese lira. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries. National accounts data source from 1995 to 2015 is Eurostat; prior to 1995 is UN. The new reference year is 2010."
+MMR,Myanmar,"Southeast Asia, East Asia, and Oceania",East Asia & Pacific,Lower middle income,Fiscal year end: March 31; reporting period for national accounts data: FY.
+MNA,Middle East & North Africa (excluding high income),,,,
+MNE,Montenegro,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,Upper middle income,"Montenegro declared independence from Serbia and Montenegro on June 3, 2006. Where available, data for each country are shown separately. However, for Serbia, some indicators continue to include data for Montenegro through 2005."
+MNG,Mongolia,"Central Europe, Eastern Europe, and Central Asia",East Asia & Pacific,Lower middle income,
+MNP,Northern Mariana Islands,,East Asia & Pacific,High income,
+MOZ,Mozambique,Sub-Saharan Africa,Sub-Saharan Africa,Low income,
+MRT,Mauritania,Sub-Saharan Africa,Sub-Saharan Africa,Lower middle income,National account data were adjusted to reflect the new banknote (1 new ouguiya = 10 old ouguiya)
+MUS,Mauritius,"Southeast Asia, East Asia, and Oceania",Sub-Saharan Africa,High income,
+MWI,Malawi,Sub-Saharan Africa,Sub-Saharan Africa,Low income,
+MYS,Malaysia,"Southeast Asia, East Asia, and Oceania",East Asia & Pacific,Upper middle income,
+NAC,North America,,,,North America regional aggregate. There are no economies in North America classified as low or middle income.
+NAM,Namibia,Sub-Saharan Africa,Sub-Saharan Africa,Upper middle income,Fiscal year end: March 31; reporting period for national accounts data: CY.
+NCL,New Caledonia,,East Asia & Pacific,High income,
+NER,Niger,Sub-Saharan Africa,Sub-Saharan Africa,Low income,
+NGA,Nigeria,Sub-Saharan Africa,Sub-Saharan Africa,Lower middle income,
+NIC,Nicaragua,Latin America and Caribbean,Latin America & Caribbean,Lower middle income,
+NLD,Netherlands,High income,Europe & Central Asia,High income,"A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 2.20371 Netherlands guilder. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+NOR,Norway,High income,Europe & Central Asia,High income,
+NPL,Nepal,South Asia,South Asia,Lower middle income,Fiscal year end: July 14; reporting period for national accounts data: FY.
+NRU,Nauru,,East Asia & Pacific,High income,Fiscal year end: June 30; reporting period for national accounts data: FY.
+NZL,New Zealand,High income,East Asia & Pacific,High income,Fiscal year end: March 31; reporting period for national accounts data: CY.
+OED,OECD members,,,,
+OMN,Oman,North Africa and Middle East,Middle East & North Africa,High income,
+OSS,Other small states,,,,
+PAK,Pakistan,South Asia,South Asia,Lower middle income,Fiscal year end: June 30; reporting period for national accounts data: FY.
+PAN,Panama,Latin America and Caribbean,Latin America & Caribbean,High income,
+PER,Peru,Latin America and Caribbean,Latin America & Caribbean,Upper middle income,
+PHL,Philippines,"Southeast Asia, East Asia, and Oceania",East Asia & Pacific,Lower middle income,
+PLW,Palau,,East Asia & Pacific,High income,Fiscal year ends on September 30; reporting period for national accounts data: FY.
+PNG,Papua New Guinea,"Southeast Asia, East Asia, and Oceania",East Asia & Pacific,Lower middle income,
+POL,Poland,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,High income,
+PRE,Pre-demographic dividend,,,,"Pre-dividend countries are mostly low-income countries, lagging in key human development indicators and with current fertility levels above four births per woman. They face very rapid population growth."
+PRI,Puerto Rico,Latin America and Caribbean,Latin America & Caribbean,High income,Fiscal year end: June 30; reporting period for national accounts data: FY.
+PRK,"Korea, Dem. People's Rep.","Southeast Asia, East Asia, and Oceania",East Asia & Pacific,Low income,
+PRT,Portugal,High income,Europe & Central Asia,High income,"A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 200.482 Portuguese escudo. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+PRY,Paraguay,Latin America and Caribbean,Latin America & Caribbean,Upper middle income,
+PSE,West Bank and Gaza,Latin America and Caribbean,Middle East & North Africa,Lower middle income,
+PSS,Pacific island small states,,,,Pacific island small states aggregate.
+PST,Post-demographic dividend,,,,Post-dividend countries are mostly high-income countries where fertility has transitioned below replacement levels.
+PYF,French Polynesia,,East Asia & Pacific,High income,
+QAT,Qatar,North Africa and Middle East,Middle East & North Africa,High income,
+ROU,Romania,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,High income,
+RUS,Russian Federation,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,Upper middle income,
+RWA,Rwanda,Sub-Saharan Africa,Sub-Saharan Africa,Low income,
+SAS,South Asia,,,,
+SAU,Saudi Arabia,North Africa and Middle East,Middle East & North Africa,High income,
+SDN,Sudan,North Africa and Middle East,Sub-Saharan Africa,Low income,
+SEN,Senegal,Sub-Saharan Africa,Sub-Saharan Africa,Lower middle income,
+SGP,Singapore,High income,East Asia & Pacific,High income,Fiscal year end: March 31; reporting period for national accounts data: CY.
+SLB,Solomon Islands,"Southeast Asia, East Asia, and Oceania",East Asia & Pacific,Lower middle income,
+SLE,Sierra Leone,Sub-Saharan Africa,Sub-Saharan Africa,Low income,
+SLV,El Salvador,Latin America and Caribbean,Latin America & Caribbean,Lower middle income,
+SMR,San Marino,,Europe & Central Asia,High income,
+SOM,Somalia,Sub-Saharan Africa,Sub-Saharan Africa,Low income,
+SRB,Serbia,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,Upper middle income,"Montenegro declared independence from Serbia and Montenegro on June 3, 2006. Where available, data for each country are shown separately. However, for Serbia, some indicators, such as those series for which data appear only for Serbia and not Montenegro--e.g., aid, environment, external debt, balance of payments, various social indicators excluding population--continue to include data for Montenegro through 2005. Moreover, data from 1999 onward for Serbia for most indicators exclude data for Kosovo, 1999 being the year when Kosovo became a territory under international administration pursuant to UN Security Council Resolution 1244 (1999); any exceptions are noted. Kosovo became a World Bank member on June 29, 2009; available data are shown separately for Kosovo. In 2011, the Statistical Office of Serbia improved the methodology of national accounts data for 2003 onward. Specifically, the classification of sectors was revised."
+SSA,Sub-Saharan Africa (excluding high income),,,,Sub-Saharan Africa regional aggregate (does not include high-income economies).
+SSD,South Sudan,"Central Europe, Eastern Europe, and Central Asia",Sub-Saharan Africa,Low income,
+SSF,Sub-Saharan Africa,,,,Sub-Saharan Africa regional aggregate (includes all income levels).
+SST,Small states,,,,Small states (members of the Small States Forum) aggregate.
+STP,São Tomé and Principe,Latin America and Caribbean,Sub-Saharan Africa,Lower middle income,National account data were adjusted to reflect the new banknote (1 new Dobra STN = 1000 old Dobra STD)
+SUR,Suriname,Latin America and Caribbean,Latin America & Caribbean,Upper middle income,
+SVK,Slovak Republic,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,High income,"A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate entered into force on January 1, 2009: 1 euro = 30.126 Slovak koruna. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries."
+SVN,Slovenia,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,High income,"A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate entered into force on January 1, 2007: 1 euro = 239.64 Slovenian tolar. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries."
+SWE,Sweden,High income,Europe & Central Asia,High income,Fiscal year end: June 30; reporting period for national accounts data: CY.
+SWZ,Eswatini,Sub-Saharan Africa,Sub-Saharan Africa,Lower middle income,Fiscal year end: March 31; reporting period for national accounts data: CY. Authorities revised national accounts from 1999 to 2015.
+SXM,Sint Maarten (Dutch part),,Latin America & Caribbean,High income,
+SYC,Seychelles,"Southeast Asia, East Asia, and Oceania",Sub-Saharan Africa,High income,
+SYR,Syrian Arab Republic,North Africa and Middle East,Middle East & North Africa,Low income,
+TCA,Turks and Caicos Islands,,Latin America & Caribbean,High income,
+TCD,Chad,Sub-Saharan Africa,Sub-Saharan Africa,Low income,
+TEA,East Asia & Pacific (IDA & IBRD),,,,East Asia & Pacific (IDA & IBRD countries) aggregate.
+TEC,Europe & Central Asia (IDA & IBRD),,,,Europe & Central Asia (IDA & IBRD countries) aggregate.
+TGO,Togo,Sub-Saharan Africa,Sub-Saharan Africa,Low income,
+THA,Thailand,"Southeast Asia, East Asia, and Oceania",East Asia & Pacific,Upper middle income,Fiscal year end: September 30; reporting period for national accounts data: CY.
+TJK,Tajikistan,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,Low income,
+TKM,Turkmenistan,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,Upper middle income,
+TLA,Latin America & Caribbean (IDA & IBRD),,,,Latin America & the Caribbean (IDA & IBRD countries) aggregate.
+TLS,Timor-Leste,"Southeast Asia, East Asia, and Oceania",East Asia & Pacific,Lower middle income,
+TMN,Middle East & North Africa (IDA & IBRD),,,,Middle East & North Africa (IDA & IBRD countries) aggregate.
+TON,Tonga,"Southeast Asia, East Asia, and Oceania",East Asia & Pacific,Upper middle income,
+TSA,South Asia (IDA & IBRD),,,,South Asia (IDA & IBRD countries) aggregate.
+TSS,Sub-Saharan Africa (IDA & IBRD),,,,Sub-Saharan Africa (IDA & IBRD countries) aggregate.
+TTO,Trinidad and Tobago,Latin America and Caribbean,Latin America & Caribbean,High income,
+TUN,Tunisia,North Africa and Middle East,Middle East & North Africa,Lower middle income,
+TUR,Turkey,North Africa and Middle East,Europe & Central Asia,Upper middle income,
+TUV,Tuvalu,,East Asia & Pacific,Upper middle income,
+TZA,Tanzania,Sub-Saharan Africa,Sub-Saharan Africa,Lower middle income,
+UGA,Uganda,Sub-Saharan Africa,Sub-Saharan Africa,Low income,Fiscal year end: June 30; reporting period for national accounts data: FY.
+UKR,Ukraine,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,Lower middle income,
+UMC,Upper middle income,,,,"Upper middle income group aggregate. Upper-middle-income economies are those in which 2019 GNI per capita was between $4,046 and $12,535."
+URY,Uruguay,High income,Latin America & Caribbean,High income,
+USA,United States,High income,North America,High income,
+UZB,Uzbekistan,"Central Europe, Eastern Europe, and Central Asia",Europe & Central Asia,Lower middle income,
+VCT,St. Vincent and the Grenadines,Latin America and Caribbean,Latin America & Caribbean,Upper middle income,
+VEN,"Venezuela, RB",Latin America and Caribbean,Latin America & Caribbean,Upper middle income,
+VGB,British Virgin Islands,Latin America and Caribbean,Latin America & Caribbean,High income,
+VIR,Virgin Islands (U.S.),Latin America and Caribbean,Latin America & Caribbean,High income,
+VNM,Vietnam,"Southeast Asia, East Asia, and Oceania",East Asia & Pacific,Lower middle income,
+VUT,Vanuatu,,East Asia & Pacific,Lower middle income,
+WLD,World,,,,World aggregate.
+WSM,Samoa,"Southeast Asia, East Asia, and Oceania",East Asia & Pacific,Upper middle income,Fiscal year ends on June 30; reporting period for national accounts data: FY.
+XKX,Kosovo,,Europe & Central Asia,Upper middle income,
+YEM,"Yemen, Rep.",North Africa and Middle East,Middle East & North Africa,Low income,
+ZAF,South Africa,Sub-Saharan Africa,Sub-Saharan Africa,Upper middle income,Fiscal year end: March 31; reporting period for national accounts data: CY.
+ZMB,Zambia,Sub-Saharan Africa,Sub-Saharan Africa,Lower middle income,"National accounts data were rebased to reflect the January 1, 2013, introduction of the new Zambian kwacha at a rate of 1,000 old kwacha = 1 new kwacha."
+ZWE,Zimbabwe,Sub-Saharan Africa,Sub-Saharan Africa,Lower middle income,
