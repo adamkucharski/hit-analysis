@@ -13,7 +13,7 @@ pathogen_levels <- c("measles", "mumps", "rubella", "varicella", "sars_cov_2_wt"
 pathogen_labels <- c("Measles", "Mumps", "Rubella", "Varicella-Zoster", "SARS-CoV-2 (pre-B.1.1.7 variants)",
     "SARS-CoV-2 (B.1.1.7)", "Flu A(H1N1)",  "Flu A(H3N2)", "Flu B")
 samples_full <- 
-    bind_rows(sample_eff_all, sample_eff_flu_mea, sample_eff_sar, sample_eff_other) %>%
+    bind_rows(sample_eff_all, sample_r0_flu_mea, sample_r0_sar, sample_r0_other) %>%
     arrange(pathogen) %>%
     group_by(metric) %>%
     mutate(row = row_number()) %>%
@@ -24,11 +24,11 @@ samples_median <- samples_full %>% group_by(pathogen) %>% summarise(eff = median
 save(samples_full, file = here::here("outputs", "fig_data", "samples_fig1a.RDS"))
 
 # 1.3 Get data for Figures 1b/c
-sc2_wild <- get_samples_nat_imm(samples_full, "SARS-CoV-2 (pre-B.1.1.7 variants)", vac_eff = c(0.5, 0.7, 0.9))
-sc2_b117 <- get_samples_nat_imm(samples_full, "SARS-CoV-2 (B.1.1.7)", vac_eff =  c(0.5, 0.7, 0.9))
+sc2_wild <- get_samples_nat_imm(samples_full, "SARS-CoV-2 (pre-B.1.1.7 variants)", vac_eff = c(50, 70, 90))
+sc2_b117 <- get_samples_nat_imm(samples_full, "SARS-CoV-2 (B.1.1.7)", vac_eff =  c(50, 70, 90))
 prop_15p_in <- get_prop_15p_country() %>% group_by(income) %>% summarise(prop = 1 - weighted.mean(prop, pop)/100)
-save(sample_nat_imm_sars, file = here::here("outputs", "fig_data", "samples_fig1b.RDS"))
-save(sample_nat_imm_sars_b177, file = here::here("outputs", "fig_data", "samples_fig1c.RDS"))
+save(sc2_wild, file = here::here("outputs", "fig_data", "samples_fig1b.RDS"))
+save(sc2_b117, file = here::here("outputs", "fig_data", "samples_fig1c.RDS"))
 
 # 1.4. Make Figure 1 and save
 p1a <- plot_fig1a(samples_full, samples_median)

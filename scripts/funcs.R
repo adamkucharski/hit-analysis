@@ -69,7 +69,7 @@ get_samples_nat_imm <- function(data, pathogen_str, vac_eff) {
     hit_list <- vector(mode = "list", length = length(xx))
     for (i in seq_len(length(xx))) {
         for (cov in vac_eff) {
-            samples <- ((1 - 1 / r0_samples) - xx[i]) / ((1 - xx[i]) * cov)
+            samples <- ((1 - 1 / r0_samples) - xx[i]) / ((1 - xx[i]) * cov / 100)
             hit_list[[j]] <- data.frame(
                 x = i / 100,
                 y = median(samples) %>% trim_val(NA, NA),
@@ -201,7 +201,7 @@ plot_fig1bc <- function(pltdata, prop_15p, let) {
                 legend.key.size = unit(1, "lines")) +
             labs(x = "Proportional reduction in transmission as a result of\n
                     naturally acquired immunity to SARS-CoV-2",
-                y = "Vaccination coverage", colour = "Coverage") +
+                y = "Vaccination coverage", colour = "Vaccine effectiveness (%)") +
             coord_cartesian(xlim = c(0, 1), ylim = c(0, 1)) +
             ggtitle(paste0(let,") " ,attributes(pltdata)$variant))
 }
@@ -236,7 +236,7 @@ plot_fig2 <- function(data, thresholds, title) {
 
     data %>% 
         ggplot() + 
-        geom_line(data = sc2_wild, aes(x = x, y = y, linetype = coverage), size = 1) + 
+        geom_line(data = thresholds, aes(x = x, y = y, linetype = coverage), size = 1) + 
         geom_point(aes(x = prev, y = prop, shape = scope, size = ss, fill = income), alpha = 0.7) + 
         geom_point(aes(x = prev, y = prop, shape = scope, size = ss), fill = data$plt_col, alpha = 0.7) + 
         geom_text_repel(data = data_labs, aes(x = prev, y = prop, label = country), color = "black", alpha = 0.8, size = 3, 
@@ -251,7 +251,7 @@ plot_fig2 <- function(data, thresholds, title) {
         theme_bw() + 
         theme(aspect.ratio = 0.8) + 
         labs(x = "Estimated seroprevalence", y = "Proportion of population 15 years and over", fill = "Income", 
-            shape = "Study type", size = "Study size", linetype = "HIT at different vaccine\n effectiveness values", 
+            shape = "Study type", size = "Study size", linetype = "HIT at different vaccine\n effectiveness values (%)", 
             title = title) +
         coord_cartesian(xlim = c(0, 0.72), ylim = c(0.55, 0.9)) + 
         scale_size(guide = "none") + 
