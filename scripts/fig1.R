@@ -35,8 +35,8 @@ save(sc2_b117, file = here::here("outputs", "fig_data", "samples_fig1c.RDS"))
 
 # 1.4. Make Figure 1 and save
 p1a <- plot_fig1a(samples_full, samples_median)
-p1b <- plot_fig1bc(sc2_wild, prop_15p_in, "B")
-p1c <- plot_fig1bc(sc2_b117, prop_15p_in, "C")
+p1b <- plot_fig1bc(sc2_wild, prop_15p_in, "b")
+p1c <- plot_fig1bc(sc2_b117, prop_15p_in, "c")
 p1bc <-  p1b / p1c / guide_area() + plot_layout(guides = "collect", heights = c(3, 3, 0.8))
 p1a / p1bc + plot_layout(heights = c(1, 2.5))
 ggsave(file = "outputs/fig1.png", width = 8, height = 12, dpi = 300)

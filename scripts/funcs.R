@@ -176,7 +176,7 @@ plot_fig1a <- function(samples_full, samples_median) {
                 label = "Herd immunity threshold", size = 2.5, angle = 0) +
             annotate("segment", x = 8.5, xend = 7.0, y = 0.7, yend = 0.85, colour = "black", size =  0.5, alpha = 0.8,
                 arrow = arrow(length = unit(4, "mm"))) +
-            labs(x = expression(R["0"]), y = "Vaccine effectiveness", fill = "Pathogen", title = "A)") +
+            labs(x = expression(R["0"]), y = "Vaccine effectiveness", fill = "Pathogen", title = "a)") +
             guides(fill = guide_legend(override.aes = list(size = 4))) +
                 theme(legend.title = element_text(size = 8),
                     legend.text  = element_text(size = 6),
