@@ -189,19 +189,19 @@ plot_fig1bc <- function(pltdata, prop_15p, let) {
     # stuff to truncate the values between the 0 to 1 range
     pltdata %>%
         ggplot(aes(x = x, y = y)) +
-            geom_hline(data = prop_15p, aes(yintercept = prop), size = 0.3) + 
-            geom_text_repel(data = prop_15p, aes(x = 0.9, y = prop, label = income), size = 2, alpha = 1, 
-                min.segment.length = 0) + 
+            geom_hline(data = prop_15p, aes(yintercept = prop, linetype = income), size = 0.3) + 
+           # geom_text_repel(data = prop_15p, aes(x = 0.9, y = prop, label = income), size = 2, alpha = 1, 
+          #      min.segment.length = 0) + 
             geom_line(aes(color = coverage), size = 2) +
             geom_ribbon(aes(ymin = ymin, ymax = ymax, color = coverage), alpha = 0.05, size = 0.2) +
             scale_fill_continuous(type = "viridis") +
             theme_bw() + theme(aspect.ratio = 0.5, legend.position = "top",
-                legend.title = element_text(size = 12),
-                legend.text  = element_text(size = 10),
+                legend.title = element_text(size = 10),
+                legend.text  = element_text(size = 8),
                 legend.key.size = unit(1, "lines")) +
             labs(x = "Proportional reduction in transmission as a result of\n
                     naturally acquired immunity to SARS-CoV-2",
-                y = "Vaccination coverage", colour = "Vaccine effectiveness (%)") +
+                y = "Vaccination coverage", colour = "Vaccine effectiveness (%)", linetype = "Prop. over 15 years") +
             coord_cartesian(xlim = c(0, 1), ylim = c(0, 1)) +
             ggtitle(paste0(let,") " ,attributes(pltdata)$variant))
 }
@@ -223,7 +223,7 @@ plot_fig2 <- function(data, thresholds, title) {
         data %>% 
             mutate(label = countrycode(data$iso3c, origin = "iso3c", destination = "country.name")) %>%
             mutate(label_inc = case_when(
-                ((scope == "National") & (date > as.Date("2020-08-20")))~TRUE,
+                ((scope == "National") & (date > as.Date("2021-12-20")))~TRUE,
                 ((scope == "National") & (income == "Upper middle income"))~TRUE,
                 (prev > 0.4)~TRUE,
                 (prop < 0.65)~TRUE,
