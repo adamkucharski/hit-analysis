@@ -126,13 +126,13 @@ get_sero_prev <- function() {
     sero_prev_info_dates <- sero_prev_info_dates %>% separate(prev, c("prev", "uncert"), sep = "% ") %>%
         mutate(prev = as.numeric(prev))
 
-    sero_prev_global <- sero_prev_info_dates %>% 
-        filter(study_pop %in% c("Household and community samples", "Blood donors", "Tissue donor", "Multiple populations"),
+    sero_prev_global <- sero_prev_info_dates %>% #"Blood donors", "Tissue donor", "Multiple populations"
+        filter(study_pop %in% c("Household and community samples"),
         scope %in% c("National", "Regional", "Local"), 
         end_date > ymd("2020-03-01")) 
 
     sero_prev_global$study_pop <- factor(sero_prev_global$study_pop, 
-        levels = c("Household and community samples", "Blood donors",  "Tissue donor", "Multiple populations"))
+        levels = c("Household and community samples"))
     sero_prev_global$scope <- factor(sero_prev_global$scope, 
         levels = c("National", "Regional", "Local"))
 
@@ -152,7 +152,12 @@ get_sero_prev_prop <- function() {
     prop_15p <- get_prop_15p_country()
     combined_country_plot <- left_join(prop_15p, sero_prev_summ, by = "iso3c") %>% na.omit %>%
         mutate(prop = (100 - prop)/100, prev = prev/100, 
-            income =  factor(income,  levels = c("High income", "Upper middle income", "Lower middle income", "Low income")))
+            income =  factor(income,  levels = c("High income", "Upper middle income", "Lower middle income", "Low income"))) %>%
+        mutate(prop_level = case_when(
+            prop >= 0.8~"High",
+            (prop >= 0.7 & prop < 0.8)~"Medium",
+            (prop < 0.7)~"Low"
+        )) %>% mutate(prop_level = factor(prop_level, levels = c("High", "Medium", "Low")))
 }
 
 # 4. PLOTTING FUNCTION
@@ -212,10 +217,9 @@ plot_fig2 <- function(data, thresholds, title) {
         stdscale <- function(x){(x - (min(x - 80)))/(max(x) - (min(x - 80)))}
         data %>% mutate(date_num  = stdscale(as.numeric(date))) %>% 
             mutate(
-            plt_col = case_when(income == "High income"~saturation(brightness("red", 0.9), date_num),
-                income == "Upper middle income"~saturation(brightness("orange", 0.9), date_num),
-                income == "Lower middle income"~saturation(brightness("green", 0.9), date_num),
-                income == "Low income"~saturation(brightness("blue", 0.9), date_num)
+            plt_col = case_when(prop_level == "High"~saturation(brightness("red", 0.9), date_num),
+                prop_level == "Medium"~saturation(brightness("orange", 0.9), date_num),
+                prop_level == "Low"~saturation(brightness("green", 0.9), date_num),
                 ) ) 
     }
 
@@ -223,10 +227,10 @@ plot_fig2 <- function(data, thresholds, title) {
         data %>% 
             mutate(label = countrycode(data$iso3c, origin = "iso3c", destination = "country.name")) %>%
             mutate(label_inc = case_when(
-                ((scope == "National") & (date > as.Date("2021-12-20")))~TRUE,
-                ((scope == "National") & (income == "Upper middle income"))~TRUE,
-                (prev > 0.4)~TRUE,
-                (prop < 0.65)~TRUE,
+                ((scope == "National") & (who_reg == "Europe & Central Asia") & (date > as.Date("2020-10-20")))~TRUE, 
+             #   ((scope == "National") & (date > as.Date("2020-12-20")))~TRUE,
+                (prev > 0.5)~TRUE,
+                (prop < 0.6)~TRUE,
                 TRUE~FALSE
                 ))
     }
@@ -237,7 +241,7 @@ plot_fig2 <- function(data, thresholds, title) {
     data %>% 
         ggplot() + 
         geom_line(data = thresholds, aes(x = x, y = y, linetype = coverage), size = 1) + 
-        geom_point(aes(x = prev, y = prop, shape = scope, size = ss, fill = income), alpha = 0.7) + 
+        geom_point(aes(x = prev, y = prop, shape = scope, size = ss, fill = prop_level), alpha = 0.7) + 
         geom_point(aes(x = prev, y = prop, shape = scope, size = ss), fill = data$plt_col, alpha = 0.7) + 
         geom_text_repel(data = data_labs, aes(x = prev, y = prop, label = country), color = "black", alpha = 0.8, size = 3, 
             min.segment.length = 0, label.padding = 0.15, box.padding = 0.2, , max.overlaps = Inf,
@@ -250,13 +254,13 @@ plot_fig2 <- function(data, thresholds, title) {
         scale_linetype_manual(values = c("solid", "dashed", "dotted")) + 
         theme_bw() + 
         theme(aspect.ratio = 0.8) + 
-        labs(x = "Estimated seroprevalence", y = "Proportion of population 15 years and over", fill = "Income", 
+        labs(x = "Estimated seroprevalence", y = "Proportion of population 15 years and over", fill = "Proportional adult population", 
             shape = "Study type", size = "Study size", linetype = "HIT at different vaccine\n effectiveness values (%)", 
             title = title) +
         coord_cartesian(xlim = c(0, 0.72), ylim = c(0.55, 0.9)) + 
         scale_size(guide = "none") + 
         guides(linetype = guide_legend(order = 1),
             fill = guide_legend(order = 2, override.aes = 
-                list(color = c("red", "orange", "green", "blue"), size = 4)),
+                list(color = c("red", "orange", "green"), size = 3)),
             shape = guide_legend(order = 3, override.aes = list(size = 4)))
 }
