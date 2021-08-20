@@ -9,9 +9,9 @@ sample_r0_other <- get_samples_bs(data_xl %>% filter(str_detect(pathogen, "^mum|
 
 # 1.2 Combine all samples together, rename pathogens and save
 pathogen_levels <- c("measles", "mumps", "rubella", "varicella", "sars_cov_2_wt", "sars_cov_2_b117",
-"flu_h1n1pmd09", "flu_h3n2", "flu_b")
-pathogen_labels <- c("Measles", "Mumps", "Rubella", "Varicella-Zoster", "SARS-CoV-2 (pre-B.1.1.7 variants)",
-    "SARS-CoV-2 (B.1.1.7)", "Flu A(H1N1)",  "Flu A(H3N2)", "Flu B")
+"flu_h1n1pmd09", "flu_h3n2", "flu_b","sars_cov_2_delta")
+pathogen_labels <- c("Measles", "Mumps", "Rubella", "Varicella-Zoster", "SARS-CoV-2 (pre-Alpha variants)",
+    "SARS-CoV-2 (Alpha)", "Flu A(H1N1)",  "Flu A(H3N2)", "Flu B","SARS-CoV-2 (Delta)")
 samples_full <- 
     bind_rows(sample_eff_all, sample_r0_flu_mea, sample_r0_sar, sample_r0_other) %>%
     arrange(pathogen) %>%
@@ -39,8 +39,8 @@ p1b <- plot_fig1bc(sc2_wild, prop_15p_in, "b")
 p1c <- plot_fig1bc(sc2_b117, prop_15p_in, "c")
 p1bc <-  p1b / p1c / guide_area() + plot_layout(guides = "collect", heights = c(3, 3, 0.8))
 p1a / p1bc + plot_layout(heights = c(1, 2.5))
-ggsave(file = "outputs/fig1.png", width = 8, height = 12, dpi = 300)
-ggsave(file = "outputs/fig1.pdf", width = 8, height = 12, dpi = 300)
+ggsave(file = "../outputs/fig1.png", width = 8, height = 12, dpi = 300)
+ggsave(file = "../outputs/fig1.pdf", width = 8, height = 12, dpi = 300)
 #p1a + p1bc + plot_layout(widths = c(1, 1))
 #ggsave(file = "outputs/fig1.png", width = 8, height = 8, dpi = 300)
 #ggsave(file = "outputs/fig1.pdf", width = 8, height = 8, dpi = 300)

@@ -5,7 +5,7 @@ packs <- c("tidyverse", "readxl", "patchwork", "metR", "shades", "ggdist", "ggre
 lapply(packs, library, character.only = TRUE)
 
 ## 1.2 load mean and ci data for R0 (measles, flu, sars-cov-2) and vac eff from excel
-data_xl <- read_excel("data/data_full.xlsx") %>%
+data_xl <- read_excel("../data/data_full.xlsx") %>%
     mutate(eff_mean = eff_mean / 100, eff_lb = eff_lb / 100, eff_ub = eff_ub / 100)
 
 ## 1.3 samples list R0 for bootstrapping
@@ -165,7 +165,7 @@ get_sero_prev_prop <- function() {
 plot_fig1a <- function(samples_full, samples_median) {
     sc2_cols <- c("#046927", "#4CBB17")
     flu_cols <- c("blue") %>% brightness(0.8) %>% saturation(seq(0.2, 1, 0.4))
-    pathogen_colours <- c("red", "purple", "orange", "gray", sc2_cols, flu_cols)
+    pathogen_colours <- c("red", "purple", "orange", "gray", sc2_cols, flu_cols,"black")
 
     samples_full %>%
         ggplot(aes(x = r0, y = eff)) +
