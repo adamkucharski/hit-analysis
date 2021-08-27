@@ -165,7 +165,7 @@ get_sero_prev_prop <- function() {
 plot_fig1a <- function(samples_full, samples_median) {
     sc2_cols <- c("#046927", "#4CBB17")
     flu_cols <- c("blue") %>% brightness(0.8) %>% saturation(seq(0.2, 1, 0.4))
-    pathogen_colours <- c("red", "purple", "orange", "gray", sc2_cols, flu_cols,"black")
+    pathogen_colours <- c("red", "purple", "orange", "gray", sc2_cols, flu_cols,"#66ff00")
 
     samples_full %>%
         ggplot(aes(x = r0, y = eff)) +
